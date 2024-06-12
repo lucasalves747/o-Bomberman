@@ -1,20 +1,3 @@
-
- <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border: 1px solid #ddd;
-            overflow-x: auto;
-        }
-    </style>
-</head>
 <body>
     <h1>Descrição do Código do Robô Seguidor de Linha com Sensores de Cor e Ultrassônicos</h1>
 
