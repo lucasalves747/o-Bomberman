@@ -1,5 +1,5 @@
 
-    <style>
+ <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -18,7 +18,7 @@
 <body>
     <h1>Descrição do Código do Robô Seguidor de Linha com Sensores de Cor e Ultrassônicos</h1>
 
-    <h2>Componentes Utilizados:</h2>
+<h2>Componentes Utilizados:</h2>
     <ul>
         <li><strong>Sensor de Cor:</strong> Utilizado para detectar a cor da linha e determinar a trajetória do robô.</li>
         <li><strong>Sensores Ultrassônicos:</strong> Um sensor à frente para detectar obstáculos frontais e outro nos lados para detectar obstáculos laterais.</li>
@@ -26,17 +26,17 @@
         <li><strong>Microcontrolador:</strong> Arduino ou similar para processar as informações dos sensores e controlar os motores.</li>
     </ul>
 
-    <h2>Funcionamento do Código:</h2>
+<h2>Funcionamento do Código:</h2>
     <h3>1. Inicialização:</h3>
     <p>Configuração dos pinos dos sensores de cor e ultrassônicos. Inicialização dos motores e da comunicação serial, se necessário para depuração.</p>
 
-    <h3>2. Leitura dos Sensores:</h3>
+<h3>2. Leitura dos Sensores:</h3>
     <ul>
         <li><strong>Sensor de Cor:</strong> O sensor de cor é lido constantemente para determinar a cor da superfície abaixo do robô. Baseado na cor detectada, o robô decide se deve seguir em frente, virar à esquerda ou à direita.</li>
         <li><strong>Sensores Ultrassônicos:</strong> Os sensores ultrassônicos medem a distância até os objetos à frente e aos lados. Se um objeto é detectado dentro de uma distância crítica, o robô ajusta seu trajeto para evitar a colisão.</li>
     </ul>
 
-    <h3>3. Controle de Movimento:</h3>
+ <h3>3. Controle de Movimento:</h3>
     <ul>
         <li><strong>Seguindo a Linha:</strong>
             <ul>
@@ -52,7 +52,7 @@
         </li>
     </ul>
 
-    <h3>4. Decisão de Direção:</h3>
+<h3>4. Decisão de Direção:</h3>
     <p>Utilizando as informações do sensor de cor, o robô decide onde virar. Por exemplo, uma cor vermelha pode indicar uma curva à esquerda, enquanto uma cor azul pode indicar uma curva à direita.</p>
     </body>
 </html>
